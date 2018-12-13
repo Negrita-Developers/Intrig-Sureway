@@ -67,6 +67,9 @@ body
 	background: #FFFFFF;
 	color: #a5a5a5;
 }
+.customer-logos .slide{
+	height:140px;
+}
 div
 {
 	display: block;
