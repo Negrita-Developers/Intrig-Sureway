@@ -1065,3 +1065,15 @@ section
 	outline: solid 1px rgb(18, 92, 175);
 	border: green !important;
 }
+
+
+.card-body{
+	height: 170px;
+}
+.card{
+	margin-top: 30px;
+}
+.card-text{
+	line-height: 27px;
+	margin-top: 12px;
+}

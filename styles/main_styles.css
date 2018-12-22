@@ -1510,3 +1510,14 @@ input:last-of-type
 	margin-right: 0px;
 }
 
+
+.card-body{
+	height: 170px;
+}
+.card{
+	margin-top: 30px;
+}
+.card-text{
+	line-height: 27px;
+	margin-top: 12px;
+}
