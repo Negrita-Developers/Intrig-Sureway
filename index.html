@@ -110,8 +110,6 @@
 
 					<div class="menu_social_container menu_mm">
 						<ul class="menu_social menu_mm">
-							<li class="menu_social_item menu_mm"><a href="#"><i class="fab fa-pinterest"></i></a></li>
-							<li class="menu_social_item menu_mm"><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
 							<li class="menu_social_item menu_mm"><a href="#"><i class="fab fa-instagram"></i></a></li>
 							<li class="menu_social_item menu_mm"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
 							<li class="menu_social_item menu_mm"><a href="#"><i class="fab fa-twitter"></i></a></li>
@@ -135,7 +133,7 @@
 
 					<!-- Hero Slide -->
 					<div class="hero_slide">
-						<div class="hero_slide_background" style="background-image:url(https://i.ytimg.com/vi/rJXurta105M/maxresdefault.jpg)"></div>
+						<div class="hero_slide_background" style="background-image:url(images/home.jpg)"></div>
 						<div class="hero_slide_container d-flex flex-column align-items-center justify-content-center">
 							<div class="hero_slide_content text-center">
 								<h1 data-animation-in="fadeInUp" style="color:black" data-animation-out="animate-out fadeOut">Get your <span>Home</span> Insurance
@@ -181,7 +179,7 @@
 
 					<!-- Hero Slide -->
 					<div class="hero_slide">
-						<div class="hero_slide_background" style="background-image:url(http://www.ams-insurance.net/wp-content/uploads/2016/12/Public-liability-insurance-banner2-1024x437.jpg)"></div>
+						<div class="hero_slide_background" style="background-image:url(images/caution.jpg)"></div>
 						<div class="hero_slide_container d-flex flex-column align-items-center justify-content-center">
 							<div class="hero_slide_content text-center">
 								<h1 data-animation-in="fadeInUp" style="color:black" data-animation-out="animate-out fadeOut"> <span>Public/Product Liability</span>
@@ -197,7 +195,7 @@
 
 					<!-- Hero Slide -->
 					<div class="hero_slide">
-						<div class="hero_slide_background" style="background-image:url(http://www.merrittgraphics.com/uploads/images/Supercityone-Painting-Plumbing-Carpentry-Masonry-Electrical-Tiles-work-Wall-paper-Flooring--1024x682.jpg)"></div>
+						<div class="hero_slide_background" style="background-image:url(images/masonry.jpg)"></div>
 						<div class="hero_slide_container d-flex flex-column align-items-center justify-content-center">
 							<div class="hero_slide_content text-center">
 								<h1 data-animation-in="fadeInUp" style="color:black" data-animation-out="animate-out fadeOut"><span>Employers Liability</span>
@@ -213,7 +211,7 @@
 
 					<!-- Hero Slide -->
 					<div class="hero_slide">
-						<div class="hero_slide_background" style="background-image:url(https://emtv.com.pg/wp-content/uploads/2017/03/240317-Boroko-Shops-Gutted.jpg)"></div>
+						<div class="hero_slide_background" style="background-image:url(images/fire.jpg)"></div>
 						<div class="hero_slide_container d-flex flex-column align-items-center justify-content-center">
 							<div class="hero_slide_content text-center">
 								<h1 data-animation-in="fadeInUp" style="color:black" data-animation-out="animate-out fadeOut"> <span>SME</span> Insurance
@@ -650,11 +648,15 @@
 			height: 120px;
 		}
 
-		@media (max-width: 400px) {
+		@media only screen and (max-width: 500px) {
 			.text .line {
 				margin-left: px;
 				height:20px;
 			}
+			.text{
+				margin-right: 230px;
+            }
+			
 		}
 
 		@media(max-width: 800px) {
@@ -890,6 +892,30 @@
 			margin-top: 9%;
 			-webkit-transform: translate(-50%, -50%);
 			transform: translate(-50%, -50%);
+		}
+		@media only screen and (max-width: 991px) {
+			.main_nav_container {
+				display: none;
+			}
+			
+			
+			.logo{
+				height: 85px;
+			}
+		}
+		@media only screen and (max-width: 480px){
+			.logo{
+				height: 70px;
+			}
+			.newbtn{
+				height: 50px;
+    margin-top: 40px;
+			}
+		}
+		@media only screen and (max-width: 380px){
+			.logo{
+				height: 73px;
+			}
 		}
 
 		.text {

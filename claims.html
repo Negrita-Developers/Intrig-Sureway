@@ -395,25 +395,56 @@
         p{
             color:black;
         }
-        .quote {
-            margin-left: 45px;
-            font-size: 25px;
-            font-weight: 900;
-        }
+        .logo {
+			height: 117px;
+			margin-left: -20px;
+		}
+
+		.quote {
+			margin-left: 45px;
+			font-size: 25px;
+			font-weight: 900;
+		}
 
 
 
-        .card-img-top {
-            height: 270px;
-        }
+		.card-img-top {
+			height: 270px;
+		}
 
-        .wrapper {
-            position: absolute;
-            margin-left: 30%;
-            margin-top: 9%;
-            -webkit-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%);
-        }
+		.wrapper {
+			position: absolute;
+			margin-left: 30%;
+			margin-top: 9%;
+			-webkit-transform: translate(-50%, -50%);
+			transform: translate(-50%, -50%);
+		}
+
+        @media only screen and (max-width: 991px) {
+			.main_nav_container {
+				display: none;
+			}
+
+			.wrapper {
+				margin-left: 120px;
+			}
+			.logo{
+				height: 85px;
+			}
+		}
+		@media only screen and (max-width: 480px){
+			.logo{
+				height: 80px;
+			}
+		}
+		@media only screen and (max-width: 380px){
+			.logo{
+				height: 73px;
+			}
+			.wrapper{
+				margin-left: 80px;	
+			}
+		}
 
         .text {
             margin: 0;
