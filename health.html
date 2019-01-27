@@ -234,7 +234,16 @@
 									 data-error="Name is required.">
 									<input id="contact_form_email" class="input_field contact_form_email" type="email" placeholder="E-mail"
 									 required="required" data-error="Valid email is required.">
-									<textarea id="contact_form_message" class="text_field contact_form_message" name="message" placeholder="Tell us the package you're interested in. Feel free to add any additional details and/or questions."
+									 <select id="package" name="package:" id="contact_form_email" class="input_field contact_form_email">
+										<option value=" Group Personal Accident Insurance">Group Personal Accident Insurance </option>
+										<option value=" Group Life Insurance">Group Life Insurance </option>
+										<option value=" Individual Personal Accident">Individual Personal Accident </option>
+										<option value=" Student Personal Accident">Student Personal Accident </option>
+										<option value=" Travel Insurance Cover">Travel Insurance Cover </option>
+										<option value=" Micro-finance Insurance">Micro-finance Insurance </option>
+
+									</select>
+									<textarea id="contact_form_message" class="text_field contact_form_message" name="message" placeholder="Feel free to add any additional details and/or questions."
 									 required="required" data-error="Please, write us a message."></textarea>
 									<button id="contact_send_btn" type="button" class="contact_send_btn trans_200" value="Submit">send message</button>
 								</form>

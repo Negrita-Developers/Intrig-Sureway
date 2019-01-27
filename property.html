@@ -133,7 +133,7 @@
 				<div class="row course_boxes" style="margin-top:-50px;">
 
 					<!-- Popular Course Item -->
-					<div class="col-lg-4 course_box">
+					<div class="col-lg-4 course_box" id="home">
 						<div class="card">
 							<img class="card-img-top" src="http://equityassuranceltd.com.gh/wp-content/uploads/2014/03/product_img_fire.jpg" alt="">
 							<div class="card-body text-center">
@@ -145,6 +145,22 @@
 							</div>
 						</div>
 					</div>
+
+					<!-- Popular Course Item -->
+					<div class="col-lg-4 course_box">
+						<div class="card">
+							<img class="card-img-top" src="https://isure-spaceracedigital.netdna-ssl.com/wp-content/uploads/2016/11/Home-Insurance_zrfnmx-600x400.png" alt="">
+							<div class="card-body text-center">
+								<div class="card-title"><a href="courses.html">Home Insurance</a></div>
+								<div class="card-text">This policy gives indemnity to restore/compensate you against losses or damage arising from any of the following causes Fire, lightning, earthquake, storm or 
+									floods,Riots & strikes and malicious damage, Bursting or overflowing or water tanks apparatus or pipes or theft of items covered.</div>
+							</div>
+							<div class="price_box d-flex flex-row align-items-center">
+								<a href="#quoteform" class="quote">Request Quote</a> 
+							</div>
+						</div>
+					</div>
+
 
 					<!-- Popular Course Item -->
 					<div class="col-lg-4 course_box">
@@ -332,7 +348,24 @@
 									 data-error="Name is required.">
 									<input id="contact_form_email" class="input_field contact_form_email" type="email" placeholder="E-mail"
 									 required="required" data-error="Valid email is required.">
-									<textarea id="contact_form_message" class="text_field contact_form_message" name="message" placeholder="Tell us the package you're interested in. Feel free to add any additional details and/or questions."
+									 <select id="package" name="package:" id="contact_form_email" class="input_field contact_form_email">
+										<option value=" Fire & perils Insurance">Fire & perils Insurance </option>
+										<option value=" Home Insurance">Home Insurance </option>
+										<option value=" Burglary Insurance">Burglary Insurance </option>
+										<option value=" All Risk Insurance">All Risk Insurance </option>
+										<option value=" Contractors All Risks">Contractors All Risks </option>
+										<option value=" Industrial All risk Insurance">Industrial All risk Insurance </option>
+										<option value=" Computer & Electronic Equipment Insurance">Computer & Electronic Equipment Insurance </option>
+										<option value=" Money Insurance">Money Insurance </option>
+										<option value=" Plate Glass Insurance">Plate Glass Insurance </option>
+										<option value=" Goods In Transit">Goods In Transit </option>
+										<option value=" Machinery Insurance">Machinery Insurance </option>
+										<option value=" Marine Cargo Insurance">Marine Cargo Insurance </option>
+										<option value=" Business man Combined Policy">Business man Combined Policy </option>
+										<option value=" Property Terrorism & Sabotage Insurance">Property Terrorism & Sabotage Insurance </option>
+
+									</select>
+									<textarea id="contact_form_message" class="text_field contact_form_message" name="message" placeholder="Feel free to add any additional details and/or questions."
 									 required="required" data-error="Please, write us a message."></textarea>
 									<button id="contact_send_btn" type="button" class="contact_send_btn trans_200" value="Submit">send message</button>
 								</form>
